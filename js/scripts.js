@@ -26,6 +26,7 @@ $(".shopForm").submit(function(event) {
   $(".receiptOrders").append("<li>" + toporder + "</li>" + "<li>" + bottomorders + "</li>" + "<li>" + shoeorders + "</li>");
   $(".receipt").show();
   $(".shopForm").hide();
+  $(".modal").toggle();
 
   });
 });

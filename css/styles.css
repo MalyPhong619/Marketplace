@@ -1,3 +1,16 @@
 .shopForm, .receipt {
   display: none;
 }
+body{
+background-image: url(http://3.bp.blogspot.com/-tWiLIo7X5rM/UcI2MQNZh7I/AAAAAAAAC5c/3UV0YYmGDYw/s1600/1019-14.jpg);
+}
+.container{
+  background-color: white;
+  padding: 10px;
+}
+h1{
+  text-align: center;
+}
+.modal {
+  display: none;
+}

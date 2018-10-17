@@ -11,8 +11,10 @@
 <body>
   <h1 class="jumbotron">Online Marketplace</h1>
   <div class="container">
+
     <form class="userForm">
       <div class="form-group">
+        <h2>Input Information</h2>
         <label for="userName">Name: </label>
         <input type="text" id="userName">
       </div>
@@ -52,16 +54,32 @@
       </select>
       <button type="submit" class="btn btn-primary">Checkout</button>
     </form>
-    <div class="receipt">
-      <h2>Thank you, <span id="receiptName"></span></h2>
-      <p>You ordered:</p>
-      <ul class="receiptOrders">
-      </ul>
-      <p>This will we shipped in 3 - 7 business days to:<p>
-        <p id="receiptaddress"></p>
-        <span id="receiptCity"></span>,
-        <span id="receiptState"></span>
+
+
+
+    <div class="modal" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title">Thank you, <span id="receiptName"></span></h2>
+          <div class="modal-body">
+            <p>You ordered:</p>
+            <ul class="receiptOrders">
+            </ul>
+            <p>This will we shipped in 3 - 7 business days to this address:<p>
+              <p id="receiptaddress"></p>
+              <span id="receiptCity"></span>,
+              <span id="receiptState"></span>
+          </div>
+          </div>
+        </div>
       </div>
+    </div>
+
+
+
+
+
     </div>
   </body>
   </html>
